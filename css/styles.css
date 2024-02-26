@@ -1,0 +1,143 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #66BFBF;
+  margin-top: 50px;
+  margin-bottom: auto;
+  font-family: 'Sacramento',cursive;
+  font-size: 3rem; /* 1 em= 16px em is good for when you have to zoom on the page*/
+                  /* rem does not get effected by the parent */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    height: 75px;
+    padding-top: 60px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.flower{
+  height: 175px;
+}
+
+.henna-designs{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.paintings{
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hello-desciption{
+  width: 30%;
+  margin: auto;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  width: 7%;
+  margin: 100px auto;
+}
+
+
+.my-skills-title{
+  position: relative;
+  top: 40px;
+}
+
+.bottom-container{
+  background-color: #E4F9F5;
+  padding: 50px;
+}
+
+.copyright{
+  font-size: .75rem;
+  padding-top: 30px;
+}
+
+p{
+    line-height: 2;
+}
+
+.BUTTON_IKT {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 17px;
+   font-weight: 100;
+   padding: 15px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_IKT:hover {
+   background: #11999E;
+   border: solid #11999E 1px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+/* float= moves text to float around the picture
+   clear= basically undos float and puts the text
+   back on the bottom of the picture */
